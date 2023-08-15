@@ -1,0 +1,41 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" 
+"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>Registration form</title>
+</head>
+<body bgcolor="">
+	<h1 style="background-color:red" align="center" >Sign up page</h1>
+	<form align = "center">
+		<hr/>
+		<label>NAME:&nbsp;&nbsp;&nbsp;</label><input type="text" name="Name" placeholder="Enter Your Name" maxlength="10" required="true" /><hr/>
+		<label>FIRST NAME:&nbsp;&nbsp;&nbsp;</label><input type="text" name="fname" placeholder="Enter Your First Name" maxlength="10" required="true" /><hr/>
+		<label>LAST NAME:&nbsp;&nbsp;&nbsp;</label><input type="text" name="lname" placeholder="Enter Your Last Name" maxlength="10" required="true" /><hr/>
+		<label>ADRESS:&nbsp;&nbsp;&nbsp;</label>
+		<input type="textarea" name="fname" placeholder="DOOR NO. street and area" maxlength="50" style="height:70px; width:250px;" /><hr/>
+		<label>GENDER:&nbsp;&nbsp;&nbsp;</label><input type="radio" name="male" required="true" /> MALE
+		<input type="radio" name="female" /> FEMALE<hr/>
+		<label>CITY:&nbsp;&nbsp;&nbsp;</label><select name="city">
+			<option>Bengaluru</option>
+			<option>Tumkur</option>
+			<option>Mysore</option>
+			<option>Mandya</option>
+			<option>Madhur</option>
+			<option>Channapatana</option>
+			<option>Hassan</option>
+		</select><br/><br/>
+		<label>IF NOT IN LIST: &nbsp;</label><input type="textarea" name="mention" placeholder="Pleace Mention It Here!..." style="height: 50px; width: 200px;" />
+		<hr/>
+		<div>
+		<label>INTERESTS:&nbsp;</label><input type="checkbox" name="interests"/> JAVA<br/>
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="checkbox" name="interests"/> C++<br/>
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<input type="checkbox" name="interests"/> C<br/>
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<input type="checkbox" name="interests"/> PYTHON<br/>
+		</div><hr/>
+		<input type="submit" name="submit botton" />&nbsp;
+		<input type="reset" name="reset botton" />
+	</form>
+</body>
+</html>
